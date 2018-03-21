@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mytags">
+    <output-path>$PROJECT_DIR$/deploy</output-path>
+    <root id="archive" name="mytags.jar">
+      <element id="artifact" artifact-name="app06b:war exploded" />
+    </root>
+  </artifact>
+</component>
