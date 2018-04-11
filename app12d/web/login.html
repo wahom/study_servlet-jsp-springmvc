@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+<h1>Login Form</h1>
+<!--j_security_check j_username j_password是固定的，不可变，否则不起作用-->
+<form action='j_security_check' method='post'>
+    <div>
+        User Name: <input name='j_username'/>
+    </div>
+    <div>
+        Password: <input type='password' name='j_password'/>
+    </div>
+    <div>
+        <input type='submit' value='Login'/>
+    </div>
+</form>
+</body>
+</html>
